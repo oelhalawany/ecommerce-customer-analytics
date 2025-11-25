@@ -11,8 +11,7 @@ __pycache__/
 venv/
 env/
 
-# Data files (don't upload large CSVs to GitHub)
-data/*.csv
+# Keep data files for this portfolio project
 !data/.gitkeep
 
 # OS
