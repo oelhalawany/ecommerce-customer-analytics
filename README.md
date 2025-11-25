@@ -1,0 +1,62 @@
+# E-Commerce Customer Analytics
+
+A beginner-friendly data analytics portfolio project for e-commerce analysis.
+
+## 📊 Project Goal
+
+Analyze customer behavior and predict churn for an e-commerce business.
+
+## 🚀 Quick Start
+
+1. **Install requirements**
+```powershell
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+
+2. **Generate data**
+```powershell
+python generate_data.py
+```
+
+3. **Start analysis**
+```powershell
+jupyter notebook
+# Open notebooks/01_explore_data.ipynb
+```
+
+## 📁 Project Structure
+
+```
+ecommerce-customer-analytics/
+├── data/                       # Your CSV files
+├── notebooks/                  # Jupyter notebooks
+│   ├── 01_explore_data.ipynb
+│   └── 02_customer_segmentation.ipynb
+├── src/                        # Reusable Python functions
+│   ├── __init__.py
+│   └── common.py              # Shared utility functions
+├── generate_data.py           # Creates sample data
+├── requirements.txt           # Python packages
+└── README.md                  # This file
+```
+
+## 📈 What You'll Learn
+
+- Data cleaning and exploration (Week 1)
+- Customer segmentation & RFM analysis (Week 2)
+- Visualization with matplotlib/seaborn
+- Writing reusable Python functions (src/common.py)
+- Basic machine learning (Week 3 - coming soon)
+
+## 🎯 Skills for Munich Jobs
+
+This project demonstrates:
+- Python (pandas, numpy)
+- Data visualization
+- Statistical analysis
+- Business insights
+- GitHub portfolio
+
+---
+
+**Status:** Week 1 - Data Exploration
